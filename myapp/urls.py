@@ -6,4 +6,6 @@ from myapp import views
 
 urlpatterns = [
     path("", views.groundwater_map, name='home'),
+    path("prediction/", views.prediction, name='prediction'),
+
 ]
